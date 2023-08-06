@@ -5,50 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aishwarya TS</title>
     <link rel="icon" type="image/jpg" href="images/headicon.jpg"/>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    
     <script src="script.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body class="bd">
     <header class="top">
-        <div class="row">
-             <div class="col-6">
+        <div class="row p-2 topcontent">
+             <div class="col-6 ">
                 <p>Portfolio</p>
             </div>
-            <div class="col-6">
+            <div class="col-6 ">
                 <p class="text-end">Aishwarya T S</p>
             </div>
         </div>
     </header>
     <section id="main">
         <div class="container-fluid">
-            <div class="row">
+            <div class="row p-2 maincontent">
                 <div class="col-9">
-                    <p>Hi! I am Aishwarya</p>
+                    <p class="firstline">Hi! I am Aishwarya</p>
                     <p>Lorem ipsum dolor sit amet. Vel magni repellat ab consequatur autem aut galisum explicabo qui tempora consectetur. Non sint praesentium in enim delectus nam sunt illum! Id pariatur cumque et voluptas distinctio et atque consequatur cum totam dolorem.</p>
                     
                 </div>
                 <div class="col-3">
-                    <img src="https://m.media-amazon.com/images/I/51ZyKMjchoL._AC_UF1000,1000_QL80_.jpg" alt="girl image" class="col-5">
+                    <img src="https://th.bing.com/th/id/R.75e467642ade050ec13432aab54ac3ef?rik=2C2q2se0pRbBTw&riu=http%3a%2f%2fdpforgirls.com%2fwp-content%2fuploads%2f2021%2f07%2fCartoon-DP-for-girls-42.jpg&ehk=g8JTAh1stpMzn7cFaou1G8lWTotDOI5IiknZEH%2b6kfY%3d&risl=&pid=ImgRaw&r=0" alt="girl image" class="img-fluid rounded">
                     </br>
-                    <ul class="nav flex-column">
+                    <ul class="nav flex-column list">
                         <li class="nav-item">
-                          <a class="nav-link" href="#main">Home</a>
+                          <a class="nav-link navlink" href="#main">Home</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#aboutme">About Me</a>
+                          <a class="nav-link navlink" href="#aboutme">About Me</a>
+                        </li>
+                        <li class="nav-item navitem">
+                          <a class="nav-link navlink" href="#qualification">Qualification</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#qualification">Qualification</a>
+                          <a class="nav-link navlink" href="#skills">Skills</a>  
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#skills">Skills</a>  
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Projects</a>  
+                            <a class="nav-link navlink" href="#">Projects</a>  
                           </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
+                            <a class="nav-link navlink" href="#contact">Contact</a>
                         </li>   
                     </ul>
                 </div>
@@ -59,11 +60,11 @@
     <br>
 
     <section id="aboutme">
-        <h4>About me</h4>
+        <p class="firstline">About me</p>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-6">
-                    <img src="https://m.media-amazon.com/images/I/51ZyKMjchoL._AC_UF1000,1000_QL80_.jpg" alt="girl image" class="col-6">
+                    <img src="https://th.bing.com/th/id/R.75e467642ade050ec13432aab54ac3ef?rik=2C2q2se0pRbBTw&riu=http%3a%2f%2fdpforgirls.com%2fwp-content%2fuploads%2f2021%2f07%2fCartoon-DP-for-girls-42.jpg&ehk=g8JTAh1stpMzn7cFaou1G8lWTotDOI5IiknZEH%2b6kfY%3d&risl=&pid=ImgRaw&r=0" alt="girl image" class="col-6">
                 </div>
                 <div class="col-6">
                     <p>Lorem ipsum dolor sit amet. Vel magni repellat ab consequatur autem aut galisum explicabo qui tempora consectetur. Non sint praesentium in enim delectus nam sunt illum! Id pariatur cumque et voluptas distinctio et atque consequatur cum totam doloremLorem ipsum dolor sit amet. Vel magni repellat ab consequatur autem aut galisum explicabo qui tempora consectetur. Non sint praesentium in enim delectus nam sunt illum! Id pariatur cumque et voluptas distinctio et atque consequatur cum totam dolorem</p>
@@ -77,7 +78,7 @@
     <br>
 
     <section id="qualification">
-        <h4>Qualification</h4>
+        <p class="firstline">Qualification</p>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 col-lg-6">
@@ -96,7 +97,7 @@
     <br>
 
     <section id="skills">
-        <h4>Skills</h4>
+        <p class="firstline">Skills</p>
         <div class="row">
         <div class="col-6 col-lg-4">
             <p>Python</p>
@@ -125,7 +126,7 @@
     <br>
 
     <section id="contact">
-        <h4>Contact me</h4>
+        <p class="firstline">Contact me</p>
         <p>contact</p>
         <p>feedback form</p>
     </section>

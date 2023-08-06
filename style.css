@@ -1,0 +1,32 @@
+.bd{
+    color:white;
+    background-color: black;
+}
+
+.topcontent{
+    font-family: serif;
+    font-size: x-large;
+}
+
+#main{
+    background-image:url("https://wallpaperaccess.com/full/5652030.jpg");
+    background-size: 100% 100%;
+}
+
+.maincontent{
+    font-size: larger;
+    font-family: serif;
+}
+
+.firstline{
+    font-family: cursive;
+    font-size: xx-large;
+}
+
+.list{
+    font-size: large;
+}
+
+.navlink{
+    color:white;
+}
