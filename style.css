@@ -9,7 +9,7 @@
 }
 
 #main{
-    background-image:url("https://wallpaperaccess.com/full/5652030.jpg");
+    background-image:url("images/cover.jpg");
     background-size: 100% 100%;
 }
 
@@ -29,4 +29,10 @@
 
 .navlink{
     color:white;
+}
+
+.btn{
+    background-color: green;
+    color: white;
+    
 }
